@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: darkblue;
+    padding: 15px;
+    border-image: url("5a2411fc6003f508dd5d5b37.png");
+    border: 3cm solid transparent;
+
+}
+
+body{
+    background-image: url("Untitled-1.png"), url("5a2411fc6003f508dd5d5b37.png");
+    background-repeat: no-repeat, repeat;
+}
+
+#borderimg1 { 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(5a2411fc6003f508dd5d5b37.png) 30 round;
+  }
+
+.hot{
+    font-size: 40px;
+    text-align: right;
+    color: indigo;
+}
