@@ -51,12 +51,37 @@ h2{
 
 .hostage2{
     position: relative;
-    left: 600px;
+    left: 500px;
     top: -665px;
     width: 15%;
     height: auto;
     font-size: 20px;
     color: black;
     text-shadow: 4px 4px 10px red;
+
+}
+
+.hostage3{
+    position: relative;
+    left: 1000px;
+    top: -1330px;
+    width: 15%;
+    height: auto;
+    font-size: 20px;
+    color: black;
+    text-shadow: 4px 4px 10px red;
+
+}
+
+.hostage4{
+    position: relative;
+    left: 1500px;
+    top: -1968px;
+    width: 15%;
+    height: auto;
+    font-size: 20px;
+    color: black;
+    text-shadow: 4px 4px 10px red;
+
 
 }
