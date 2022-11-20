@@ -1,0 +1,62 @@
+
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    padding: 15px;
+}
+
+body {
+    background-image: url("Untitled-1.png"), url("5a2411fc6003f508dd5d5b37.png");
+    background-repeat: no-repeat, repeat;
+}
+
+#borderimg1 { /* shit sdont work rn lol */
+    border: solid 20px;
+    border-image: url("5a2411fc6003f508dd5d5b37.png") 30 round; 
+    background-image: linear-gradient(90deg, #ff0000 0%, #ff00ff 35%, #000000 100%);
+}
+
+.hot {
+    font-size: 40px;
+    text-align: right;
+    color: indigo;
+}
+
+.sexxyyy{
+    font-size: 25px;
+    color: yellow;
+    padding: 20px;
+}
+a{
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: magenta;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,calc(25% - 50px));
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 50px;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+
+
+.hostage{
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    text-shadow: 4px 4px 10px red;
+
+}
+
+.hostage img{
+    max-width: 100%;
+}

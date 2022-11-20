@@ -1,0 +1,20 @@
+{
+  "name": "man-oh-man-lasbaher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "sex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cefurdev/man-oh-man-lasbaher.git"
+  },
+  "author": "fuzinc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cefurdev/man-oh-man-lasbaher/issues"
+  },
+  "homepage": "https://github.com/cefurdev/man-oh-man-lasbaher#readme"
+}
