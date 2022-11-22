@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Spletna stran</title>
+</head>
+
+<body>
+    <form action="/pozdrav" method="get">
+        <label for="ime">napisi ime ce si zrtev lasbaher in dobi pomoc</label><br />
+        <input type="text" id="ime" name="ime" />
+        <button type="submit">Pošlji policiji</button>
+    </form>
+    <br />
+
+    <span>na pomoč čakajo:</span>
+    <ul>
+        <% for (const ime of imena) { %>
+        <li><%= ime  %> </li>
+        <% } %>
+    </ul>
+</body>
+</html>
