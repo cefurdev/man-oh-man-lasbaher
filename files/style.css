@@ -1,9 +1,11 @@
-
-
 h1 {
     text-align: center;
     color: darkblue;
     padding: 15px;
+}
+
+.idk{
+    float: right;
 }
 
 body {
@@ -11,9 +13,9 @@ body {
     background-repeat: no-repeat, repeat;
 }
 
-#borderimg1 { /* shit sdont work rn lol */
+#borderimg1 { /* shit sdont work rn lol (maybe works lol) */
     border: solid 20px;
-    border-image: url("5a2411fc6003f508dd5d5b37.png") 30 round; 
+    border-image: url("1200px-Schutzstaffel_Abzeichen.svg.png") 250 round; 
     background-image: linear-gradient(90deg, #ff0000 0%, #ff00ff 35%, #000000 100%);
 }
 
@@ -30,6 +32,7 @@ body {
 }
 a{
     font-size: 20px;
+    text-align: right;
 }
 
 h2{
