@@ -7,22 +7,32 @@
 h1 {
     text-align: center;
     color: darkblue;
-    padding: 15px;
+    padding: 10px;
 }
 
-.idk{
-    float: right;
+.misc{
+    position: relative;
 }
 
+
+
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(90deg, #ff0000 0%, #ff00ff 35%, #000000 100%) ;
+
+}*/
 body {
     background-image: url("Untitled-1.png"), url("5a2411fc6003f508dd5d5b37.png");
     background-repeat: no-repeat, repeat;
 }
 
 #borderimg1 { /* shit sdont work rn lol (maybe works lol) */
-    border: solid 20px;
+    border: solid 22px;
     border-image: url("1200px-Schutzstaffel_Abzeichen.svg.png") 250 round; 
-    background-image: linear-gradient(90deg, #ff0000 0%, #ff00ff 35%, #000000 100%);
+    background-image: linear-gradient(90deg,#ff0000 0%, #ff00ff 35%, #000000 100%);
 }
 
 .hot {
@@ -57,7 +67,6 @@ h2{
 }
 
 
-
 .hostage{
     display: inline-block;
     font-size: 20px;
@@ -78,8 +87,10 @@ h2{
 </head>
 <body>
     <nav>
-        <a class="ilovewebsite" href="meme.html">nigros</a>
-        <a class="idk" href="<%= files\views\index.ejs %>">(ne dela😢😢😢😢😢) rabis pomoc</a>
+        <ul>
+        <li><a class="ilovewebsite" href="meme.html">nigros</a></li>
+        <li><a class="idk" href="files\views\<%=index.ejs %>">(ne dela😢😢😢😢😢) rabis pomoc</a></li>
+        <li><a class="misc" href="download.html">lol sussy</a></li></ul>
     </nav>
     <h1 id="borderimg1">tA Webiste je lasbahr inspireDD!!!11!!11!</h1>
     <a href="https://youtu.be/pXSSV43H3F4">honestly lasbaher do be like this when no amogus donut kakakakajajajaj</a>
