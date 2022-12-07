@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cefurdev/man-oh-man-lasbaher/issues"
   },
-  "homepage": "https://github.com/cefurdev/man-oh-man-lasbaher#readme"
+  "homepage": "https://github.com/cefurdev/man-oh-man-lasbaher#readme",
+  "dependencies": {
+    "formidable": "^2.0.1"
+  }
 }
